@@ -1,0 +1,133 @@
+# ############################################################################################################# #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# |                                                                                                           | #
+# |        ████████╗ █████╗  █████╗ ██╗     ████████╗██████╗  █████╗  █████╗ ██╗  ██╗███████╗██████╗          | #
+# |        ╚══██╔══╝██╔══██╗██╔══██╗██║     ╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗         | #
+# |           ██║   ██║  ██║██║  ██║██║        ██║   ██████╔╝███████║██║  ╚═╝█████═╝ █████╗  ██████╔╝         | #
+# |           ██║   ██║  ██║██║  ██║██║        ██║   ██╔══██╗██╔══██║██║  ██╗██╔═██╗ ██╔══╝  ██╔══██╗         | #
+# |           ██║   ╚█████╔╝╚█████╔╝███████╗   ██║   ██║  ██║██║  ██║╚█████╔╝██║ ╚██╗███████╗██║  ██║         | #
+# |           ╚═╝    ╚════╝  ╚════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝         | #
+# |                                                                                                           | #
+# |                    Youtube:    www.youtube.com/@davigamer1614                                             | #
+# |                    Github:     https://github.com/Guayand0/Minecraft-Plugin-ToolTracker                   | #
+# |                                                                                                           | #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# ############################################################################################################# #
+
+# ############################################################################################################# #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# |                                                                                                           | #
+# |                                █████╗  █████╗ ███╗  ██╗███████╗██╗ ██████╗                                | #
+# |                               ██╔══██╗██╔══██╗████╗ ██║██╔════╝██║██╔════╝                                | #
+# |                               ██║  ╚═╝██║  ██║██╔██╗██║█████╗  ██║██║  ██╗                                | #
+# |                               ██║  ██╗██║  ██║██║╚████║██╔══╝  ██║██║  ╚██╗                               | #
+# |                               ╚█████╔╝╚█████╔╝██║ ╚███║██║     ██║╚██████╔╝                               | #
+# |                                ╚════╝  ╚════╝ ╚═╝  ╚══╝╚═╝     ╚═╝ ╚═════╝                                | #
+# |                                                                                                           | #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# ############################################################################################################# #
+
+config:
+  # You can add a new language adding (language.yml) to lang folder
+  # If you want to have support for more languages by default, send
+  # the .yml file with the translations and the language via GitHub
+  # https://github.com/Guayand0/Minecraft-Plugin-ToolTracker/issues
+  #
+  # Available default languages: en, es
+  # English - en.yml    Spanish - es.yml
+  message-language: en
+
+  # Enable/Disable the tool tracker function
+  tool-tracker-use: true # (you need to use "/tt reload" to apply changes)
+
+  # Enable/Disable the new version available message (update-message)
+  update-checker: true
+
+tool-track:
+
+  - 'wooden_sword'
+  - 'stone_sword'
+  - 'iron_sword'
+  - 'golden_sword'
+  - 'diamond_sword'
+  - 'netherite_sword'
+
+  - 'wooden_axe'
+  - 'stone_axe'
+  - 'iron_axe'
+  - 'golden_axe'
+  - 'diamond_axe'
+  - 'netherite_axe'
+
+  - 'wooden_pickaxe'
+  - 'stone_pickaxe'
+  - 'iron_pickaxe'
+  - 'golden_pickaxe'
+  - 'diamond_pickaxe'
+  - 'netherite_pickaxe'
+
+  - 'wooden_shovel'
+  - 'stone_shovel'
+  - 'iron_shovel'
+  - 'golden_shovel'
+  - 'diamond_shovel'
+  - 'netherite_shovel'
+
+  - 'wooden_hoe'
+  - 'stone_hoe'
+  - 'iron_hoe'
+  - 'golden_hoe'
+  - 'diamond_hoe'
+  - 'netherite_hoe'
+
+  - 'bow'
+  - 'crossbow'
+
+  - 'fishing_rod'
+  - 'carrot_on_a_stick'
+  - 'warped_fungus_on_a_stick'
+
+  - 'shears'
+
+  - 'flint_and_steel'
+
+  - 'shield'
+
+  - 'elytra'
+
+  - 'trident'
+
+  - 'brush'
+
+  - 'mace'
+
+  - 'leather_helmet'
+  - 'chainmail_helmet'
+  - 'iron_helmet'
+  - 'golden_helmet'
+  - 'diamond_helmet'
+  - 'netherite_helmet'
+  - 'turtle_helmet'
+
+  - 'leather_chestplate'
+  - 'chainmail_chestplate'
+  - 'iron_chestplate'
+  - 'golden_chestplate'
+  - 'diamond_chestplate'
+  - 'netherite_chestplate'
+
+  - 'leather_leggings'
+  - 'chainmail_leggings'
+  - 'iron_leggings'
+  - 'golden_leggings'
+  - 'diamond_leggings'
+  - 'netherite_leggings'
+
+  - 'leather_boots'
+  - 'chainmail_boots'
+  - 'iron_boots'
+  - 'golden_boots'
+  - 'diamond_boots'
+  - 'netherite_boots'
+
+  - 'turtle_helmet'

@@ -1,0 +1,21 @@
+main: tt.Guayando.ToolTracker
+name: ToolTracker
+version: 1.0.2
+author: Guayando
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+description: Un plugin que muestra la durabilidad de los items.
+
+commands:
+  tooltracker:
+    description: Comando principal
+    usage: /tooltracker <arg0>
+    aliases: tt
+
+permissions:
+  tooltracker.admin:
+    default: op
+    description: Sirve para poder usar comandos de administrador
+  tooltracker.updatechecker:
+    default: op
+    description: Sirve para comprobar si hay una nueva version del plugin

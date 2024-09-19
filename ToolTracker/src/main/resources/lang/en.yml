@@ -1,0 +1,57 @@
+# ############################################################################################################# #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# |                                                                                                           | #
+# |        ████████╗ █████╗  █████╗ ██╗     ████████╗██████╗  █████╗  █████╗ ██╗  ██╗███████╗██████╗          | #
+# |        ╚══██╔══╝██╔══██╗██╔══██╗██║     ╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗         | #
+# |           ██║   ██║  ██║██║  ██║██║        ██║   ██████╔╝███████║██║  ╚═╝█████═╝ █████╗  ██████╔╝         | #
+# |           ██║   ██║  ██║██║  ██║██║        ██║   ██╔══██╗██╔══██║██║  ██╗██╔═██╗ ██╔══╝  ██╔══██╗         | #
+# |           ██║   ╚█████╔╝╚█████╔╝███████╗   ██║   ██║  ██║██║  ██║╚█████╔╝██║ ╚██╗███████╗██║  ██║         | #
+# |           ╚═╝    ╚════╝  ╚════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝         | #
+# |                                                                                                           | #
+# |                    Youtube:    www.youtube.com/@davigamer1614                                             | #
+# |                    Github:     https://github.com/Guayand0/Minecraft-Plugin-ToolTracker                   | #
+# |                                                                                                           | #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# ############################################################################################################# #
+
+# ############################################################################################################# #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# |                                                                                                           | #
+# |                    ███╗   ███╗███████╗ ██████╗ ██████╗ █████╗  ██████╗ ███████╗ ██████╗                   | #
+# |                    ████╗ ████║██╔════╝██╔════╝██╔════╝██╔══██╗██╔════╝ ██╔════╝██╔════╝                   | #
+# |                    ██╔████╔██║█████╗  ╚█████╗ ╚█████╗ ███████║██║  ██╗ █████╗  ╚█████╗                    | #
+# |                    ██║╚██╔╝██║██╔══╝   ╚═══██╗ ╚═══██╗██╔══██║██║  ╚██╗██╔══╝   ╚═══██╗                   | #
+# |                    ██║ ╚═╝ ██║███████╗██████╔╝██████╔╝██║  ██║╚██████╔╝███████╗██████╔╝                   | #
+# |                    ╚═╝     ╚═╝╚══════╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═════╝                    | #
+# |                                                                                                           | #
+# +-----------------------------------------------------------------------------------------------------------+ #
+# ############################################################################################################# #
+
+messages:
+  help:
+    - '&b<-----------------&aCOMMANDS TOOLTRACKER&b----------------->'
+    - '&e/tooltracker help &7- Show this message'
+    - '&e/tooltracker reload &7- Reload plugin config'
+    - '&e/tooltracker version &7- Show plugin version'
+    - '&e/tooltracker author &7- Show plugin author'
+    - '&e/tooltracker permissions &7- Show plugin permission list'
+    - '&e/tooltracker plugin &7- Show plugin download link'
+    - '&7Aliases: &etooltracker&7, &ett'
+  reload: '%plugin% &aThe plugin has been reloaded.'
+  version: '%plugin% &aPlugin version: &b%version%'
+  author: '%plugin% &aPlugin author: &b%author%'
+  permissions:
+    - '&b<-----------------&aPERMISSIONS TOOLTRACKER&b----------------->'
+    - '&etooltracker.admin &7- All permissions'
+    - '&etooltracker.updatechecker &7- Allow receive message if there is an update'
+    - '&etooltracker.use &7- Allow to use the tool tracker'
+  command-no-argument: '%plugin% &7Use &e/tooltracker help &7to see the command list.'
+  no-perm: '%plugin% &cYou don`t have permission to use that command.'
+  console-error: '%plugin% &cYou can`t use that command in console.'
+
+config:
+  bank-disabled: '%plugin% &cThe bank function is currently disabled.'
+  update-checker: '%plugin% &bNew version available &e(&f%latestversion%&e)&b. Download it here: &7%link%'
+
+tool-tracker:
+  durability: '&6Durability: &a%currentDurability% &e/ &a%maxDurability%'
